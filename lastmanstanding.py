@@ -1,3 +1,26 @@
+'''
+
+Last Man Standing
+A king gathers all the men in the kingdom who are to be put to death for their crimes, but because of his mercy, he will pardon one. He gathers the men into a circle and gives the sword to one man. The man kills the man to his left, and gives the sword to the man to the dead man's left. The last man alive is pardoned. 
+
+With 5 men, the 3rd is the last man alive. 
+
+Write a program that accepts a single parameter: a number N that represents the number of criminals to start with. The program should output the number of the last two men alive.
+
+Example #1: myProgram 5
+
+would output:
+
+5, 3
+
+Example #2: myProgram 7
+
+would output:
+
+3, 7
+'''
+
+
 def last_man_standing(num):
     
     #define the cirlce
