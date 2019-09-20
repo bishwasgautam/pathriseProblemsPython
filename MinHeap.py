@@ -28,7 +28,7 @@ class MinHeap:
 		self.heap.append(num)
 
 	def remove(self):
-		self.heap[0], self.heap[-1] = self.heap[-1], self.heap[0]
+		self.swap(0,-1, self.heap)
 		val = self.heap.pop()
 		self.shift_down(0, self.heap)
 		return val
